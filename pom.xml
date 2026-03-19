@@ -195,6 +195,8 @@
               <inputExclude>src/test/resources/org/apache/commons/csv/CSVFileParser/testCSV246_checkWithNoComment.txt</inputExclude>
               <inputExclude>src/test/resources/org/apache/commons/csv/CSV-290/psql.csv</inputExclude>
               <inputExclude>src/test/resources/org/apache/commons/csv/CSV-290/psql.tsv</inputExclude>
+              <!-- Copilot session dialog files -->
+              <inputExclude>dialogs/**</inputExclude>
             </inputExcludes>
           </configuration>
         </plugin>
